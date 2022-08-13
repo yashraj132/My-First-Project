@@ -1,0 +1,272 @@
+body{margin: 0px;}
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  position: fixed;
+  top: 0;
+  width: 100%;
+  background-color: rgb(12, 12, 12);
+} 
+.navbar{
+  overflow: hidden;
+  z-index:99;
+  position: fixed;
+}
+.right{
+  float: right;
+  
+}
+@media screen and (max-width: 600px) {
+  .navbar, .right{
+    position: fixed;
+  }
+  .section{
+    padding-left: 180px;
+        font-size: 20px;
+    padding-top: 150px;
+  }
+  li{
+    position: fixed;
+    display: inline-block;
+    font-size: 10px;
+  }
+}
+
+li{
+    position:sticky;
+    display: inline-flex;
+    font-size: 25px;
+    padding: 5px;
+}
+li:hover{
+  background-color: rgb(73, 87, 87);
+}
+
+li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 14px;
+  text-decoration: none;
+}
+li a:hover{
+  background-color: rgb(73, 87, 87);
+}
+
+
+.navbar{
+  overflow: hidden;
+  padding: 0px;
+  text-align: left;
+  letter-spacing: 0px;
+  word-spacing: 0px;
+  
+}
+
+section{
+  color: rgb(0, 0, 0);
+  padding-top: 200px;
+  padding-left: 50px;
+  font-size:25px;
+  float: center;
+}
+.btn{
+  background-color: black;
+  padding: 10px;
+  margin-left: 76px;
+  
+}
+.btn:hover{
+  background-color: rgb(73, 87, 87);
+}
+.btn a{
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 10px 10px;
+  text-decoration: none;
+}
+@media (max-width:600px) {
+  .btn{
+    display: block;
+    text-align: left;
+    padding: 2px 2px;
+    text-overflow: clip;
+    margin-left: 70px;
+    font-size: 10px;
+  }
+}
+.btn a:hover{
+  background-color: rgb(73, 87, 87);
+
+}
+.side{
+  padding: 20px;
+  float: right;
+  width:500px;
+  height: 500px;
+  border: 1px solid black;
+  }
+
+aside{
+  font-size: 23px;
+  position: absolute;
+  top: 120px;
+  right: 100px;
+  width: 900px;
+  border: 3px solid #6e5959;
+  background-color: rgb(129, 129, 129);
+  padding: 10px;
+}
+@media (max-width:600px) {
+  .aside, aside{
+    font-size: 17px;
+   top: 400px;
+   overflow: hidden;
+    padding-right: 500px;
+    margin-left:100px;
+    width: 70%;
+    border: 3px solid #fdfcfc;
+    background-color: whitesmoke;
+    padding: 10px;
+  }
+}
+
+.dis{
+  padding-top: 200px;
+  padding-left: 70px;
+  padding-right: 5px;
+  margin:2px;
+  gap: 3px;
+ position: relative;
+ overflow: hidden;
+}
+@media (max-width:600px) {
+  .dis{
+  padding-top: 800px;
+  padding-left: 12px;
+  float:center;
+  }
+}
+#a{
+  color: #343333;
+  text-align: center;
+  font-size: 40px;
+  padding: 10px;
+  margin-left: 650px;
+  margin-right: 650px;
+  background-color: rgb(161, 161, 161);
+}
+#b{
+  font-size: 20px;
+  padding-top: 10px;
+  padding-left: 25px;
+  padding-right: 25px;
+  text-align: center;
+}
+@media (max-width:600px) {
+  #a{
+    font-size: 25px;
+    margin-left: 200px;
+    margin-right: 200px;
+    text-align: center;
+  }
+}
+#column{
+  float: left;
+  text-align: center;
+  overflow: hidden;
+  width: 45%;
+  padding: 20px;
+  font-size: 20px;
+  background-color: antiquewhite;
+}
+#col2{
+  padding: 20px;
+  text-align: center;
+  height: 525px;
+  font-size: 19px;
+  background-color: rgb(0, 223, 149);
+}
+
+@media screen and (max-width: 600px) {
+  #column{
+    width: 100%;
+  }
+  #col2{
+    padding-top: 5px;
+    width: 600px;
+    overflow: hidden;
+    font-size: 18px;
+    padding-left: 5px;
+    padding-right: 30px;
+    text-align: center;
+  }
+  
+  footer,.footer{
+    padding-top: 250px;
+    margin-left: -220px;
+    width: 100%;
+    display: block;
+  }
+}
+@media (max-width:600px) {
+  #contact{
+       position: absolute;
+       min-width: 100%;
+       padding-top: 300px;
+  }
+  #dev{
+    position: relative;
+    min-width: 100%;
+  }
+  }
+#contact{
+  float: left;
+  position: absolute;
+  margin-top:0px;
+  margin-left: -20px;
+  padding-right: 20px;
+  width: 50%;
+  font-size: 20px;
+  color: azure;
+  background-color: rgb(40, 38, 38);
+}
+#dev{
+  float: right;
+  margin-left: 20px;
+  margin-top:0px ;
+  width: 50%;
+  font-size: 20px;
+  color: azure;
+  background-color: rgb(40, 38, 38);
+}
+footer{
+  position: absolute;
+  background-color: rgb(12,12,12);
+  margin-top: 330px;
+  font-size: 25px;
+  word-spacing: 22px;
+  color: rgb(255, 255, 255);
+  text-decoration: none;
+
+}
+footer a{
+  color: rgb(255, 255, 255);
+  text-decoration: none;
+  display: inline-block;
+ 
+}
+footer a:hover{
+  color:#d49797;
+}
+#f{
+  position: absolute;
+  padding-left: 550px;
+  padding-right: 590px;
+  padding-bottom: 10px;
+  padding-top: 10px;
+  font-size: 20px;
+}
